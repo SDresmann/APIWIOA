@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import logocos from './COS_logo_api.png'
 
 function App() {
   const [location, setLocation] = useState('');
@@ -75,6 +76,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px' }}>
+    <img src={logocos}/>
       <h1>API Search</h1>
       <div style={{ marginBottom: '10px' }}>
         <label>
