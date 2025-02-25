@@ -77,7 +77,7 @@ function App() {
   return (
     <div style={{ padding: '20px' }}>
     <img src={logocos}/>
-      <h1>API Search</h1>
+      <h1>WIOA Search</h1>
       <div style={{ marginBottom: '10px' }}>
         <label>
           Location:&nbsp;
