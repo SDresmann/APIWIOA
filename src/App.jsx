@@ -32,7 +32,7 @@ function App() {
     try {
       const response = await axios.get(url, {
         headers: {
-          'Authorization': ` Bearer XDtqepVJfVojZuJ0z9KNiVhaX11dM3PaxfL/eFyP34InADP6U+H7q3hsS6ZwbfQ3RXbXnQibj1EsBX6fcwccrQ==`,
+          'Authorization': ` Bearer ${import.meta.env.VITE_TOKEN}`,
           'Accept': 'application/json'
         }
       });
